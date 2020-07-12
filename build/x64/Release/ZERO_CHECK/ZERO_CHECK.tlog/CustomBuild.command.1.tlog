@@ -1,6 +1,6 @@
-^C:\USERS\AIDAN\DESKTOP\AUTO\BUILD\CMAKEFILES\98AC03B20EC79ABDD53190519DD739A1\GENERATE.STAMP.RULE
+^C:\USERS\AIDAN\DOCUMENTS\GITHUB\WINDOWS-AUTO-CLICKER\BUILD\CMAKEFILES\2EC4D7362E21F4D484EE9B83A6EA5CA7\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Desktop/auto -BC:/Users/Aidan/Desktop/auto/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Aidan/Desktop/auto/build/auto.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker -BC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/auto.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

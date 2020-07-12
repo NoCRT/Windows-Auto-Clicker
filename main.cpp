@@ -1,4 +1,5 @@
-#include "SFML/Window.hpp"
+#include <SFML/Window.hpp>
+#include <SFML/Audio.hpp>
 #include "random.hpp"
 #include <iostream>
 #include <windows.h>
@@ -27,9 +28,21 @@ void click()
     ::SendInput(1, &Input, sizeof(INPUT));
 }
 
+// auto_on.wav
+// auto_off.wav
+
 int main()
 {
-    bool toggle = true;
+    sf::SoundBuffer toggle_off_buffer;
+    toggle_off_buffer.loadFromFile("auto_off.wav");
+    sf::Sound toggle_off(toggle_off_buffer);
+    
+    sf::SoundBuffer toggle_on_buffer;
+    toggle_on_buffer.loadFromFile("auto_on.wav");
+    sf::Sound toggle_on(toggle_on_buffer);
+
+    bool toggle = false;
+    std::clog << "STATUS : OFF";
     while (true)
     {
         static sf::Clock timer;
@@ -37,12 +50,18 @@ int main()
         {
             if (!toggle && sf::Keyboard::isKeyPressed(sf::Keyboard::Home))
             {
+                toggle_on.play();
                 toggle = true;
+                system("cls");
+                std::clog << "STATUS : ON";
                 timer.restart();
             }
             else if (toggle && sf::Keyboard::isKeyPressed(sf::Keyboard::Home))
             {
+                toggle_off.play();
                 toggle = false;
+                system("cls");
+                std::clog << "STATUS : OFF";
                 timer.restart();
             }
         }

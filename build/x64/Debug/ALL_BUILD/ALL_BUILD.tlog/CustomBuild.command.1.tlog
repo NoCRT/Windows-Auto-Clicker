@@ -1,6 +1,6 @@
-^C:\USERS\AIDAN\DESKTOP\AUTO\CMAKELISTS.TXT
+^C:\USERS\AIDAN\DOCUMENTS\GITHUB\WINDOWS-AUTO-CLICKER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Desktop/auto -BC:/Users/Aidan/Desktop/auto/build --check-stamp-file C:/Users/Aidan/Desktop/auto/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker -BC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build --check-stamp-file C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

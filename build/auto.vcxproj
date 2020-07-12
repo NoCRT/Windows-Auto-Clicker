@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9E1F3A71-B6AE-3BEC-AC37-266EF432087E}</ProjectGuid>
+    <ProjectGuid>{D3C0B65F-A92C-31B1-BD93-22128ABCD319}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aidan\Desktop\auto\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">auto.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">auto</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aidan\Desktop\auto\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">auto.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">auto</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aidan\Desktop\auto\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">auto.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">auto</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aidan\Desktop\auto\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">auto.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">auto</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,13 +115,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\libs\SFML-2.5.1\lib\sfml-window-d.lib;..\libs\SFML-2.5.1\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\libs\SFML-2.5.1\lib\sfml-window-d.lib;..\libs\SFML-2.5.1\lib\sfml-audio-d.lib;..\libs\SFML-2.5.1\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Aidan/Desktop/auto/build/Debug/auto.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Aidan/Desktop/auto/build/Debug/auto.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/Debug/auto.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/Debug/auto.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -159,13 +159,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\libs\SFML-2.5.1\lib\sfml-window.lib;..\libs\SFML-2.5.1\lib\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\libs\SFML-2.5.1\lib\sfml-window.lib;..\libs\SFML-2.5.1\lib\sfml-audio.lib;..\libs\SFML-2.5.1\lib\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Aidan/Desktop/auto/build/Release/auto.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Aidan/Desktop/auto/build/Release/auto.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/Release/auto.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/Release/auto.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,13 +203,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\libs\SFML-2.5.1\lib\sfml-window-d.lib;..\libs\SFML-2.5.1\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\libs\SFML-2.5.1\lib\sfml-window-d.lib;..\libs\SFML-2.5.1\lib\sfml-audio-d.lib;..\libs\SFML-2.5.1\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Aidan/Desktop/auto/build/MinSizeRel/auto.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Aidan/Desktop/auto/build/MinSizeRel/auto.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/MinSizeRel/auto.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/MinSizeRel/auto.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -235,10 +235,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -246,13 +246,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\libs\SFML-2.5.1\lib\sfml-window-d.lib;..\libs\SFML-2.5.1\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\libs\SFML-2.5.1\lib\sfml-window-d.lib;..\libs\SFML-2.5.1\lib\sfml-audio-d.lib;..\libs\SFML-2.5.1\lib\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Aidan/Desktop/auto/build/RelWithDebInfo/auto.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Aidan/Desktop/auto/build/RelWithDebInfo/auto.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/RelWithDebInfo/auto.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/RelWithDebInfo/auto.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,10 +260,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Aidan\Desktop\auto\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Aidan/Desktop/auto/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Desktop/auto -BC:/Users/Aidan/Desktop/auto/build --check-stamp-file C:/Users/Aidan/Desktop/auto/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker -BC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build --check-stamp-file C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,12 +271,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aidan\Desktop\auto\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Aidan/Desktop/auto/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Desktop/auto -BC:/Users/Aidan/Desktop/auto/build --check-stamp-file C:/Users/Aidan/Desktop/auto/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker -BC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build --check-stamp-file C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -284,12 +284,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aidan\Desktop\auto\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Aidan/Desktop/auto/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Desktop/auto -BC:/Users/Aidan/Desktop/auto/build --check-stamp-file C:/Users/Aidan/Desktop/auto/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker -BC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build --check-stamp-file C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -297,12 +297,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aidan\Desktop\auto\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Aidan/Desktop/auto/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Desktop/auto -BC:/Users/Aidan/Desktop/auto/build --check-stamp-file C:/Users/Aidan/Desktop/auto/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker -BC:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build --check-stamp-file C:/Users/Aidan/Documents/GitHub/Windows-Auto-Clicker/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -310,17 +310,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\Aidan\Desktop\auto\build\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\Aidan\Desktop\auto\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aidan\Desktop\auto\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\libs\SFML-2.5.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Aidan\Desktop\auto\main.cpp" />
+    <ClCompile Include="C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Aidan\Desktop\auto\build\ZERO_CHECK.vcxproj">
-      <Project>{BDFE8EBE-7861-3CD9-9DA2-E2FA8E079DD8}</Project>
+    <ProjectReference Include="C:\Users\Aidan\Documents\GitHub\Windows-Auto-Clicker\build\ZERO_CHECK.vcxproj">
+      <Project>{0EED9736-70A9-304D-AC34-B3C7539A13DC}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
